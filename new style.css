@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+   margin-bottom: 15px;
+text-align: center;
+color: #0c0c0c;
+font-size: 50px;
+}
+
+section {
+    position: relative;
+    padding: 15px;
+    width: 90%;
+}
+
+p {
+    position: relative;
+    clear: right;
+}
+
+div {
+    position: relative;
+    background-color: rgb(0, 38, 255);
+    border: 3.5px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.class1 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid rgb(255, 0, 0);
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #00aeff;
+
+}
+
+.class2 {
+    float: right;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid rgb(255, 0, 0);
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #09ff00;
+
+}
+
+.class3 {
+    color: black;
+    float: right;
+    width: 100px;
+    padding: 5px;
+     margin: -3px -3px 0px;
+    border: 3.5px solid rgb(255, 0, 0);
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: rgb(255, 230, 0);
+
+}
+
+.content {
+    padding: 5px;
+    border: none;
+    background-color: rgb(255, 0, 85);
+    font-family: Helvetica;
+    color: rgb(255, 255, 255);
+    margin: 3px ;
+    height: 150px;
+    overflow: auto;
+}
+
+.row {
+    width: 90%;
+}
+
+@media (min-width: 992px) {
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
